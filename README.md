@@ -143,7 +143,7 @@ to me.
 ### Known issues
 In my experience, the driver works fairly well and without major issues. I have
 notices, however, that occasionally the cursor will drift while the driver is in
-use. I noticed this issues during initial testing. 
+use.
 
 Based on my debugging, it seems the analog stick would get into a state where
 when it was released it didn't completely recenter and continued to report a
@@ -179,10 +179,10 @@ hard-coded. I don't think this is technically an "issue", but it is a current
 limitation. Time and interest permitting, I'd like to address this.
 
 ## Future work
-I created EGMoDr as part of an effort to understand the Linux input subsystem
+I created `EGMoDr` as part of an effort to understand the Linux input subsystem
 as well as fulfill a goal I had when I first started getting into computers
 (being able to write code to let me use a gamepad as a mouse). As such, I don't
-anticipate any serious, long-term effort being put into EGMoDr. That said, it
+anticipate any serious, long-term effort being put into `EGMoDr`. That said, it
 was education, fun to work on, and ended up working better than I expected.
 While it certainly won't become a part of my normal workflow, I found using the
 gamepad as an input device to be surprisingly intutitive. I could definitely see
